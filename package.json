@@ -10,13 +10,25 @@
   "author": "Your Name Here",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
     "express-async-handler": "^1.1.4",
-    "pg": "^8.5.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
     "pgtools": "^0.3.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellabluejackson/ServerSide-CRUD-Application.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ellabluejackson/ServerSide-CRUD-Application/issues"
+  },
+  "homepage": "https://github.com/ellabluejackson/ServerSide-CRUD-Application#readme"
 }
